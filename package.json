@@ -1,0 +1,30 @@
+{
+  "name": "roboquack",
+  "version": "1.0.0",
+  "description": "Discord bot of 42 BDE Marseille",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runorre/RoboQuack.git"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "ananselm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Runorre/RoboQuack/issues"
+  },
+  "homepage": "https://github.com/Runorre/RoboQuack#readme",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "fs-readdir-recursive": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}

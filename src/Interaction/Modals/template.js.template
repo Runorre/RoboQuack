@@ -1,0 +1,14 @@
+/*
+** To find out which builder you need
+** go to documentation
+** https://discordjs.guide/
+*/
+const {/*Builder your need for your commande*/} = require('@discordjs/builders');
+
+module.exports = {
+    data: null /*Builder here*/,
+    execute : async function (interaction)
+    {
+        //Code
+    }
+}
